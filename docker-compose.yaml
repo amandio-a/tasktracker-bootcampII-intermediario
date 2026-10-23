@@ -1,2 +1,6 @@
+
 services:
-  $END$
+  tasktracker:
+    build: .
+    stdin_open: true
+    tty: true
